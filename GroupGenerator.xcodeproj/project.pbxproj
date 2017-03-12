@@ -18,6 +18,7 @@
 		D3426A391E720FB5006FB29C /* GroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3426A381E720FB5006FB29C /* GroupsController.swift */; };
 		D3A00A121E74DB9E009614B5 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A00A111E74DB9E009614B5 /* GroupTableViewCell.swift */; };
 		D3A00A141E75AFBD009614B5 /* GroupGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A00A131E75AFBD009614B5 /* GroupGenerator.swift */; };
+		D3A00A191E75EC9D009614B5 /* screenshots in Resources */ = {isa = PBXBuildFile; fileRef = D3A00A181E75EC9D009614B5 /* screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D3426A381E720FB5006FB29C /* GroupsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsController.swift; sourceTree = "<group>"; };
 		D3A00A111E74DB9E009614B5 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		D3A00A131E75AFBD009614B5 /* GroupGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupGenerator.swift; sourceTree = "<group>"; };
+		D3A00A181E75EC9D009614B5 /* screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = screenshots; path = ../../Desktop/screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				D33A0D581E7177EE005D19C7 /* GroupGeneratorTests */,
 				D33A0D631E7177EE005D19C7 /* GroupGeneratorUITests */,
 				D33A0D3F1E7177ED005D19C7 /* Products */,
+				D3A00A181E75EC9D009614B5 /* screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A00A191E75EC9D009614B5 /* screenshots in Resources */,
 				D33A0D4F1E7177EE005D19C7 /* LaunchScreen.storyboard in Resources */,
 				D33A0D4C1E7177EE005D19C7 /* Assets.xcassets in Resources */,
 				D33A0D471E7177EE005D19C7 /* Main.storyboard in Resources */,
