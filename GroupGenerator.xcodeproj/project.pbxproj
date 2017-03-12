@@ -15,6 +15,9 @@
 		D33A0D4F1E7177EE005D19C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33A0D4D1E7177EE005D19C7 /* LaunchScreen.storyboard */; };
 		D33A0D5A1E7177EE005D19C7 /* GroupGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0D591E7177EE005D19C7 /* GroupGeneratorTests.swift */; };
 		D33A0D651E7177EE005D19C7 /* GroupGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0D641E7177EE005D19C7 /* GroupGeneratorUITests.swift */; };
+		D3426A391E720FB5006FB29C /* GroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3426A381E720FB5006FB29C /* GroupsController.swift */; };
+		D3A00A121E74DB9E009614B5 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A00A111E74DB9E009614B5 /* GroupTableViewCell.swift */; };
+		D3A00A141E75AFBD009614B5 /* GroupGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A00A131E75AFBD009614B5 /* GroupGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D33A0D601E7177EE005D19C7 /* GroupGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33A0D641E7177EE005D19C7 /* GroupGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupGeneratorUITests.swift; sourceTree = "<group>"; };
 		D33A0D661E7177EE005D19C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3426A381E720FB5006FB29C /* GroupsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsController.swift; sourceTree = "<group>"; };
+		D3A00A111E74DB9E009614B5 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		D3A00A131E75AFBD009614B5 /* GroupGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				D33A0D4D1E7177EE005D19C7 /* LaunchScreen.storyboard */,
 				D33A0D501E7177EE005D19C7 /* Info.plist */,
 				D33A0D481E7177EE005D19C7 /* GroupGenerator.xcdatamodeld */,
+				D3426A381E720FB5006FB29C /* GroupsController.swift */,
+				D3A00A111E74DB9E009614B5 /* GroupTableViewCell.swift */,
+				D3A00A131E75AFBD009614B5 /* GroupGenerator.swift */,
 			);
 			path = GroupGenerator;
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33A0D441E7177ED005D19C7 /* ViewController.swift in Sources */,
+				D3A00A141E75AFBD009614B5 /* GroupGenerator.swift in Sources */,
+				D3426A391E720FB5006FB29C /* GroupsController.swift in Sources */,
 				D33A0D421E7177ED005D19C7 /* AppDelegate.swift in Sources */,
 				D33A0D4A1E7177EE005D19C7 /* GroupGenerator.xcdatamodeld in Sources */,
+				D3A00A121E74DB9E009614B5 /* GroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +523,7 @@
 				D33A0D6B1E7177EE005D19C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D33A0D6C1E7177EE005D19C7 /* Build configuration list for PBXNativeTarget "GroupGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				D33A0D6E1E7177EE005D19C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D33A0D6F1E7177EE005D19C7 /* Build configuration list for PBXNativeTarget "GroupGeneratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +541,7 @@
 				D33A0D711E7177EE005D19C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
