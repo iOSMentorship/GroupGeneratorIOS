@@ -8,7 +8,7 @@ The algorithm to group was initially written in java and the its repo can be fou
 
 The Screenshot is shown below
 
-![Alt text](https://github.com/iOSMentorship/GroupGeneratorIOS/screenshots/screen1.png?raw=true "Optional title")
+![Alt text](sscreenshots/screen1.png?raw=true "Optional title")
         
-![Alt text](https://github.com/iOSMentorship/GroupGeneratorIOS/screenshots/screen2.png?raw=true "Optional title")
+![Alt text](screenshots/screen2.png?raw=true "Optional title")
 
